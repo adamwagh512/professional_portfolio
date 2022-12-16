@@ -6,13 +6,12 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ## About
-This is my professional portfolio. 
+This is a professional portfolio page for Adam Wagh. I made this page to showcase some of my favorite projects. I am always working on something new so please check back often to see my latest completed works. 
 ## How To Use
 
 ## Acknowledgments
-
 ### Portfolio Page
-I modified a codepen.io project from Pham Mikun for my portfolio section. This developer had an impressive design and  exellent documentation which made modification easy. Please check out their codepen.io page here
+I modified a codepen.io project from Pham Mikun for my portfolio section. This developer had an impressive design and  exellent documentation which made modification easy. Please check out their codepen.io page [here](https://codepen.io/mikun/)
 ## License 
 MIT License
 
