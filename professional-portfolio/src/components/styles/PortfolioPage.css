@@ -2,6 +2,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+    
 }
 
 .slider__navi {
@@ -67,7 +68,7 @@ body {
 }
 
 .text--sub {
-	font-size: 14px;
+	font-size: 15px;
 	letter-spacing: 0.5rem;
 	text-transform: uppercase;
 	margin-bottom: 40px;
@@ -75,9 +76,9 @@ body {
 }
 
 .text--big {
-	font-size: 4em;
+	font-size: 60px;
 	font-weight: 700;
-	line-height: 110px;
+	line-height: 111px;
   margin-left: -8px;
 }
 
@@ -137,11 +138,11 @@ body {
 /* Piplup */
 
 .flex--piplup .flex__item--left {
-	background: #3e9fe6;
+	background: #804BCD;
 }
 
 .flex--piplup .flex__item--right {
-	background: #d3eaef;
+	background: #587FCE;
 }
 
 /* Pikachu */
@@ -157,11 +158,11 @@ body {
 /* Blaziken */
 
 .flex--blaziken .flex__item--left {
-	background: #f64f37;
+	background: #ADD9E6;
 }
 
 .flex--blaziken .flex__item--right {
-	background: #ffebcd;
+	background: #0000FE;
 }
 
 /* Dialga */
@@ -171,7 +172,7 @@ body {
 }
 
 .flex--dialga .flex__item--right {
-	background: #ade8f7;
+	background: #ffff;
 }
 
 /* Zekrom */

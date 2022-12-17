@@ -3,6 +3,8 @@ import $ from 'jquery'
 import '../styles/PortfolioPage.css'
 import YDAW from '../media/YDAW.png'
 import ShadowTome from '../media/shadowTome.jpg'
+import Weather from '../media/weather.jpg'
+import Insurance from '../media/insurance.jpg'
 
 const Portfolio = () => {
   return (
@@ -15,55 +17,57 @@ const Portfolio = () => {
       <div class="flex__content">
         <p class="text--sub">First collaborative project</p>
         <h1 class="text--big">Your Dog Ate What ?!?</h1>
-        <p class="text--normal">This is a group project for the UT Austin coding bootcamp. It lets you know if your dog ate something dangerous</p>
-        <p class="text--normal">This is a group project for the UT Austin coding bootcamp. It lets you know if your dog ate something dangerous</p>
+        <p class="text--normal">This is a group project for the UT Austin coding bootcamp. It lets you know if your dog ate something dangerous. Click the photo to check out the project repository. There is a link to the deployed project in the Readme.</p>
       </div>
       <p class="text__background">YDAW ?!?</p>
     </div>
     <div class="flex__item flex__item--right"></div>
-    <img class="pokemon__img" src={YDAW} />
+    <a href= 'https://github.com/adamwagh512/your-dog-ate-what'><img class="pokemon__img" src={YDAW} /></a>
   </div>
 
   {/* Second Project */}
   <div class="flex__container flex--piplup animate--start" data-slide="2">
     <div class="flex__item flex__item--left">
       <div class="flex__content">
-        <p class="text--sub">Pokemon Gen IV</p>
-        <h1 class="text--big">Piplup</h1>
-        <p class="text--normal">Piplup is the Water-type Starter Pokémon of the Sinnoh region. It was introduced in Generation IV. Piplup has a strong sense of self-esteem. It seldom accepts food that people give because of its pride.</p>
+        <p class="text--sub">Second collaborative project</p>
+        <h1 class="text--big">Battle of the Shadow Tome</h1>
+        <p class="text--normal">The Battle of the Shadow Tome was my second group project for the UT Austin coding bootcamp. It is an online multiplayer game that allows you to customize your character and battle with your friends. This project was originally deployed on Heroku, but I am now looking for a new home for it. Click on the photo to visit the repository for the project</p>
       </div>
-      <p class="text__background">Piplup</p>
+      <p class="text__background">Battle</p>
     </div>
     <div class="flex__item flex__item--right"></div>
-    <img class="pokemon__img" src={"https://s4.postimg.org/sa9dl4825/pilup.png"} />
+    <a href= 'https://github.com/toddayres06/Project2'><img class="pokemon__img" src={ShadowTome} /></a>
   </div>
 
   {/* Third Project */}
   <div class="flex__container flex--blaziken animate--start" data-slide="3">
     <div class="flex__item flex__item--left">
       <div class="flex__content">
-        <p class="text--sub">Pokemon Gen III</p>
-        <h1 class="text--big">Blaziken</h1>
-        <p class="text--normal">Blaziken is the Fire/Fighting-type Starter Pokémon of the Hoenn region, introduced in Generation III. Blaziken is a large, bipedal, humanoid bird-like Pokémon that resembles a rooster.</p>
+        <p class="text--sub">Javascript project with API Calls</p>
+        <h1 class="text--big">Weather Dashboard</h1>
+        <p class="text--normal">This is a weather dashboard made using Javascript, HTML and CSS. It is populated using the OpenWeather API. It stores the four most recent searches using local storage. Click on the image to visit the respository page which has a link to the deployed project</p>
       </div>
-      <p class="text__background">Blaziken</p>
+      <p class="text__background">Weather</p>
     </div>
     <div class="flex__item flex__item--right"></div>
-    <img class="pokemon__img" src="https://s4.postimg.org/6795hnlql/blaziken.png" />
+    <a href='https://github.com/adamwagh512/weather-dashboard'><img class="pokemon__img" src={Weather} /></a>
   </div>
+
+  {/* Fourth Project */}
   <div class="flex__container flex--dialga animate--start" data-slide="4">
     <div class="flex__item flex__item--left">
       <div class="flex__content">
-        <p class="text--sub">Pokemon Gen IV</p>
-        <h1 class="text--big">Dialga</h1>
-        <p class="text--normal">Dialga is a Steel/Dragon-type Legendary Pokémon. Dialga is a sauropod-like Pokémon. It is mainly blue with some gray, metallic portions, such as its chest plate, which has a diamond in the center. It also has various, light blue lines all over
-          its body.</p>
+        <p class="text--sub">Jupyter Notebook Project</p>
+        <h1 class="text--big">U.S. Medical Insurance Analysis</h1>
+        <p class="text--normal">Dialga is a Steel/Dragon-type Legendary Pokémon. Dialga is a sauropod-like Pokémon. It is mainly blue with some gray, metallic portions, such as its chest plate, which has a diamond in the center. It also has various, light blue lines all over its boddy.</p>
       </div>
       <p class="text__background">Dialga</p>
     </div>
     <div class="flex__item flex__item--right"></div>
-    <img class="pokemon__img" src="https://s4.postimg.org/43yq9zlxp/dialga.png" />
+    <img class="pokemon__img" src={Insurance} />
   </div>
+
+  {/* Final Project */}
   <div class="flex__container flex--zekrom animate--start" data-slide="5">
     <div class="flex__item flex__item--left">
       <div class="flex__content">

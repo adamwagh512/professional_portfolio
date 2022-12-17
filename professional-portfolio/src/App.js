@@ -1,13 +1,12 @@
 import './App.css';
 import HeaderDiv from './components/headerdiv';
-import Portfolio from './components/pages/PortfolioPage';
 import Welcome from './components/pages/WelcomePage';
+import Portfolio from './components/pages/PortfolioPage';
 
 export default function App() {
   return (
     <div>
      <header>
-      {/* <Welcome /> */}
       <Portfolio />
      </header>
     </div>
