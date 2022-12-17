@@ -10,8 +10,15 @@ This is a professional portfolio page for Adam Wagh. I made this page to showcas
 ## How To Use
 
 ## Acknowledgments
+### Welcome Page
+I modified a codepen.io project from J Voorendt for the typing effect on my welcome page. His codepen.io profile can be found [here](https://codepen.io/Hikisu/)
+
+I would also like to acknowledge the artist that made the video I used for my background, but I couldn't find his name. I am just going to paste the link where I found the video [here](https://gfycat.com/adeptfalsejunco-kanadaka-content-for-creators). 
 ### Portfolio Page
 I modified a codepen.io project from Pham Mikun for my portfolio section. This developer had an impressive design and  exellent documentation which made modification easy. Please check out their codepen.io page [here](https://codepen.io/mikun/)
+
+### Readme 
+The technology badges were provided by Ileriayo Adebiyi, his repo is found [here](https://github.com/Ileriayo/markdown-badges)
 ## License 
 MIT License
 
