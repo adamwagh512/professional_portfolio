@@ -1,23 +1,30 @@
 import React from "react";
 import $ from 'jquery'
 import '../styles/PortfolioPage.css'
+import YDAW from '../media/YDAW.png'
+import ShadowTome from '../media/shadowTome.jpg'
 
 const Portfolio = () => {
   return (
     <div class = 'overlord'>
     <div class="slider__warpper">
-  <div class="flex__container flex--pikachu flex--active" data-slide="1">
+
+        {/* First Project  */}
+  <div class="flex__container flex--p1 flex--active" data-slide="1">
     <div class="flex__item flex__item--left">
       <div class="flex__content">
-        <p class="text--sub">Pokemon Gen I</p>
-        <h1 class="text--big">Pikachu</h1>
-        <p class="text--normal">Pikachu is an Electric-type Pokémon introduced in Generation I. Pikachu are small, chubby, and incredibly cute mouse-like Pokémon. They are almost completely covered by yellow fur.</p>
+        <p class="text--sub">First collaborative project</p>
+        <h1 class="text--big">Your Dog Ate What ?!?</h1>
+        <p class="text--normal">This is a group project for the UT Austin coding bootcamp. It lets you know if your dog ate something dangerous</p>
+        <p class="text--normal">This is a group project for the UT Austin coding bootcamp. It lets you know if your dog ate something dangerous</p>
       </div>
-      <p class="text__background">Pikachu</p>
+      <p class="text__background">YDAW ?!?</p>
     </div>
     <div class="flex__item flex__item--right"></div>
-    <img class="pokemon__img" src="https://s4.postimg.org/fucnrdeq5/pikachu.png" />
+    <img class="pokemon__img" src={YDAW} />
   </div>
+
+  {/* Second Project */}
   <div class="flex__container flex--piplup animate--start" data-slide="2">
     <div class="flex__item flex__item--left">
       <div class="flex__content">
@@ -28,8 +35,10 @@ const Portfolio = () => {
       <p class="text__background">Piplup</p>
     </div>
     <div class="flex__item flex__item--right"></div>
-    <img class="pokemon__img" src="https://s4.postimg.org/sa9dl4825/pilup.png" />
+    <img class="pokemon__img" src={"https://s4.postimg.org/sa9dl4825/pilup.png"} />
   </div>
+
+  {/* Third Project */}
   <div class="flex__container flex--blaziken animate--start" data-slide="3">
     <div class="flex__item flex__item--left">
       <div class="flex__content">
