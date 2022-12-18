@@ -5,6 +5,7 @@ import YDAW from '../media/YDAW.png'
 import ShadowTome from '../media/shadowTome.jpg'
 import Weather from '../media/weather.jpg'
 import Insurance from '../media/insurance.jpg'
+import FP from '../media/portfolio.jpg'
 
 const Portfolio = () => {
   return (
@@ -71,15 +72,14 @@ const Portfolio = () => {
   <div class="flex__container flex--zekrom animate--start" data-slide="5">
     <div class="flex__item flex__item--left">
       <div class="flex__content">
-        <p class="text--sub">Pokemon Gen V</p>
-        <h1 class="text--big">Zekrom</h1>
-        <p class="text--normal">Zekrom is a Dragon/Electric-type Legendary Pokémon. It is part of the Tao Trio, along with Reshiram and Kyurem. Zekrom is a large, black draconian Pokémon that seems to share its theme with its counterpart, Reshiram. It has piercing red eyes and
-          dark gray to black skin that seems to be armor-like.</p>
+        <p class="text--sub">My first website</p>
+        <h1 class="text--big">Portfolio</h1>
+        <p class="text--normal">This is an early attempt at a professional portfolio, and is the first website that I ever built from scratch. I know what you are thinking, why would I include such a poorly made website on my portfolio? Would you believe this was the very best I could manage less than 6 months before I made this portfolio? Well believe it, I am very proud of how much progress I have made in such a short time. Click the image to visit the repository for the project, which has a link to the deployed project in the Readme </p>
       </div>
-      <p class="text__background">Zekrom</p>
+      <p class="text__background">Portfolio</p>
     </div>
     <div class="flex__item flex__item--right"></div>
-    <img class="pokemon__img" src="https://s4.postimg.org/malmhgn9p/zekrom.png" />
+    <img class="pokemon__img" src={FP}/>
   </div>
 </div>
 <div class="slider__navi">

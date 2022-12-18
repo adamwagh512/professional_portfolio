@@ -35,7 +35,7 @@
 body {
 	position: relative;
 	font-size: 100%;
-	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'Montserrat', sans-serif; */
 	font-weight: 400;
 	min-height: 100vh;
 }
@@ -178,11 +178,11 @@ body {
 /* Zekrom */
 
 .flex--zekrom .flex__item--left {
-	background: #424242;
+	background: #4D4D4D;
 }
 
 .flex--zekrom .flex__item--right {
-	background: #a7bcbb;
+	background: #E3FDFC;
 }
 
 .flex__content {
