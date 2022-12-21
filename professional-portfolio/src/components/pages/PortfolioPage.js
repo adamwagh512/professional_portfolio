@@ -62,7 +62,7 @@ const Portfolio = () => {
         <h1 class="text--big">U.S. Medical Insurance Analysis</h1>
         <p class="text--normal">Dialga is a Steel/Dragon-type Legendary Pokémon. Dialga is a sauropod-like Pokémon. It is mainly blue with some gray, metallic portions, such as its chest plate, which has a diamond in the center. It also has various, light blue lines all over its boddy.</p>
       </div>
-      <p class="text__background">Dialga</p>
+      <p class="text__background">Insurance</p>
     </div>
     <div class="flex__item flex__item--right"></div>
     <img class="pokemon__img" src={Insurance} />
