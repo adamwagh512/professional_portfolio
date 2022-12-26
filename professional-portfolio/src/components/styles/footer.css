@@ -1,9 +1,8 @@
 .footer {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    z-index: 2;
-    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    z-index: 4;
+    width: 100%;
     background-color: black;
 }
 
@@ -15,7 +14,11 @@
 .logo {
     height: 50px;
     width: 50px;
-    
+    transition: transform .7s ease-in-out;
+}    
+
+.logo:hover {
+    transform: rotate(360deg);
 }
 
 .logobox {

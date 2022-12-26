@@ -16,7 +16,9 @@ const Footer = () => {
                 <a href="https://discordapp.com/users/adamw2630" target='_blank'>
                 <img className="logo" src={discord}></img>
                 </a>
+                <a href="https://github.com/adamwagh512" target='_blank' >
                 <img className="logo" src={github}></img>
+                </a>
 
             </div>
         </div>   
