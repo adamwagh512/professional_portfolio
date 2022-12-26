@@ -1,0 +1,23 @@
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+    width: 100vw;
+    background-color: black;
+}
+
+.ftext {
+    text-align: center;
+    color: green;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    
+}
+
+.logobox {
+    text-align: center;
+}

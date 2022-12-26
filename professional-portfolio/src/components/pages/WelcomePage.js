@@ -5,7 +5,7 @@ import videobg from '../media/welcome_bg.mp4'
 
 const Welcome = () => {
     return (
-        <div className="main">
+        <div id="main">
             <video src={videobg} autoPlay loop muted></video>
         <div class = 'middle'>
             <span class = 'text-type-animation'>
